@@ -37,14 +37,14 @@ Every folder has a name representative of a tool, or a set of related tools, and
 
 ### Format of Results
 Each result consists of 2 tables. Three parameters have been mentioned in the table: DR, FPR, and P.
-* DR (Detect Rate) is the percentage of tests with defects where the tool correctly detected the defect.
-* FPR (False Positive Rate) is the percentage of tests without defects where the tool incorrectly detected a defect.
-* P (Productivity) evaluates both DR and FPR at the same time. It's the square root of the product of DR and 100 - FPR. 
+* **DR** (Detect Rate) is the percentage of tests with defects where the tool correctly detected the defect.
+* **FPR** (False Positive Rate) is the percentage of tests without defects where the tool incorrectly detected a defect.
+* **P** (Productivity) evaluates both DR and FPR at the same time. It's the square root of the product of DR and 100 - FPR. 
 
 The second table lists numbers obtained while running the tool on the tests. Parameters used in the table:
-* # w Defects Detected - The number of tests with defects where the tool correctly found the defect.
-* # w/o Defects Detected - The number of tests w/o defects where the tool incorrectly reported an defect.
-* Total # of Variations - The total number of tests, or variations in the benchmark. Note that the number of tests we run is different from the number mentioned in the benchmark. Refer to the Ignored Tests section for details.  
+* **# w Defects Detected** is the number of tests with defects where the tool correctly found the defect.
+* **# w/o Defects Detected** is the number of tests w/o defects where the tool incorrectly reported an defect.
+* **# of Variations in total** is the total number of tests, or variations in the benchmark. Note that the number of tests we run is different from the number mentioned in the benchmark. Refer to the Ignored Tests section for details.  
 
 
 ### Ignored Tests

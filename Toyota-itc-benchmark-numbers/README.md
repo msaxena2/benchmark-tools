@@ -49,7 +49,7 @@ The second table lists numbers obtained while running the tool on the tests. Par
 
 ### Ignored Tests
 
-The Toyota ITC benchmark, described in this (https://www.researchgate.net/publication/283548090_Test_Suites_for_Benchmarks_of_Static_Analysis_Tools) ISSRE'15 consists of a total of 1276 tests. Half of the tests have defects, while the other half are without any defects. At the time of writing, we'd found non trivial bugs in 38 tests. We ignore the test with the bug, and the corresponding with or without defect version. 
+The Toyota ITC benchmark, described in this (https://www.researchgate.net/publication/283548090_Test_Suites_for_Benchmarks_of_Static_Analysis_Tools) [ISSRE'15] paper consists of a total of 1276 tests. Half of the tests have defects, while the other half are without any defects. At the time of writing, we'd found non trivial bugs in 38 tests. We ignore the test with the bug, and the corresponding with or without defect version. 
 
 
 

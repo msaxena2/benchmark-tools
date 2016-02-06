@@ -44,7 +44,7 @@ Each result consists of 2 tables. Three parameters have been mentioned in the ta
 The second table lists numbers obtained while running the tool on the tests. Parameters used in the table:
 * **# w Defects Detected** is the number of tests with defects where the tool correctly found the defect.
 * **# w/o Defects Detected** is the number of tests w/o defects where the tool incorrectly reported an defect.
-* **# of Variations in total** is the total number of tests, or variations in the benchmark. Note that the number of tests we run is different from the number mentioned in the benchmark. Refer to the Ignored Tests section for details.  
+* **# of Variations in total** is the total number of tests, or variations in the benchmark. Note that the number of tests we run differs from the number mentioned in the paper. Refer to the Ignored Tests section for details.  
 
 
 ### Ignored Tests

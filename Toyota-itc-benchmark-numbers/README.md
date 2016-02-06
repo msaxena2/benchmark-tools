@@ -49,8 +49,7 @@ The second table lists numbers obtained while running the tool on the tests. Par
 
 ### Ignored Tests
 
-The Toyota ITC benchmark, described in this [ISSRE'15](https://www.researchgate.net/publication/283548090_Test_Suites_for_Benchmarks_of_Static_Analysis_Tools) paper consists of a total of 1276 tests. Half of the tests have defects, while the other half are without any defects. At the time of writing, we'd found non trivial bugs in 38 tests. We ignore the test with the bug, and the corresponding with or without defect version. 
-
+The Toyota ITC benchmark, described in this [ISSRE'15](https://www.researchgate.net/publication/283548090_Test_Suites_for_Benchmarks_of_Static_Analysis_Tools) paper consists of a total of 1276 tests. Half of the tests have defects, while the other half are without any defects. We were able to detect, using RV-Match, bugs in many tests in the benchmark itself. We corrected several of the them, and made a pull request into the original repository with the fixes. However, at the time of writing, there were still 38 tests with non-trivial bugs. We ignore these 38 tests, and the corresponding with or without defects versions.
 
 
 
